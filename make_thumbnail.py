@@ -28,10 +28,13 @@ Rules = 'とんスマ！ #2'
 # 変更が必要な項目
 
 # 背景画像パス（変更必須）
-opt_img_path = './setting/img_background/.png'
+opt_img_path = ''
 
 # 大会アイコンパス（変更必須）
-icon_path = './setting/img_icon/.png'
+icon_path = ''
+
+# 生成画像の保存場所パス&名前（変更必須）
+opt_img_name = ''
 
 # 文字フォントパス（Macは変更しなくてもよい）
 opt_font_path = '/System/Library/Fonts/ヒラギノ角ゴシック W7.ttc'
@@ -60,9 +63,6 @@ bw = 9
 
 # +
 # 基本的に変更しなくて良い項目
-
-# 生成画像の保存場所パス&名前
-opt_img_name = './save_image/image'
 
 # 大会アイコンの高さ（0以上1以下の値）
 rate = 0.75
