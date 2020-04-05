@@ -6,7 +6,7 @@
 おかしなところがあったら[製作者のTwitter](https://twitter.com/Sycama_ssb)までどんどん指摘してください！
 
 ## 必要なもの
-- Pythonの環境
+- Python3の環境
 - Pythonライブラリの”pillow”, ”matplotlib”
 - 使用したい背景画像
 - 使用したい大会アイコン
