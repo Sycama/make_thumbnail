@@ -51,14 +51,14 @@ fg_color = '#FFFFFF'
 # VSの色
 vs_c = '#FFFFFF'
 
-# 以下VS縁取り設定（使用非推奨）
-# VSを縁取るかどうか（使用したい場合はTrueに変更）
-border = False
+# vsの影設定
+# VSの影を作るかどうか
+border = True
 
-# 縁取りの色
+# 影の色
 vs_b = '#000000'
 
-# 縁取り幅
+# 影の位置
 bw = 9
 
 # +
@@ -481,10 +481,7 @@ _x = int((opt_img_size[0]-lines_size_vs[0])/2)
 _y = int(opt_img_size[1]/2-lines_size_vs[1])
 
 if border:
-    draw.text((_x-bw, _y-bw), vs, font=font_vs, fill=vs_b)
-    draw.text((_x-bw, _y+bw), vs, font=font_vs, fill=vs_b)
-    draw.text((_x+bw, _y-bw), vs, font=font_vs, fill=vs_b)
-    draw.text((_x+bw, _y+bw), vs, font=font_vs, fill=vs_b)
+    draw.text((_x, _y+bw), vs, font=font_vs, fill=vs_b)
 
 draw.text((_x, _y), vs, font=font_vs, fill=vs_c)
 
