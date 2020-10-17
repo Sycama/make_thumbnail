@@ -194,7 +194,7 @@ Miiは`P1_color`により格闘/剣術/射撃を変更できます
 ## Licence
 
 Copyright (c) 2020 Sycama  
-Released under the [MIT](https://opensource.org/licenses/mit-license.php) license
+This software is released under the MIT License, see LICENSE.txt.
 
 
 ## Author
